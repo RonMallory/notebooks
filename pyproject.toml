@@ -17,6 +17,8 @@ numpy = "^1.25.2"
 kaggle = "^1.5.16"
 ipykernel = "^6.25.2"
 tensorflow = "^2.13.0"
+matplotlib = "^3.7.3"
+jupyterblack = "^0.4.1"
 
 [build-system]
 requires = ["poetry-core"]
