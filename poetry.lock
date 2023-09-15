@@ -921,6 +921,29 @@ files = [
 ]
 
 [[package]]
+name = "keras-tuner"
+version = "1.3.5"
+description = "A Hyperparameter Tuning Library for Keras"
+optional = false
+python-versions = "*"
+files = [
+    {file = "keras-tuner-1.3.5.tar.gz", hash = "sha256:5f65fbf932e17883290b40cf4b95987129947cf607972594b453e3c26e5314b7"},
+    {file = "keras_tuner-1.3.5-py3-none-any.whl", hash = "sha256:dba9d62940f5feb0309f76a07da8d0dc99c7833275a982a969a5e5bb32db8a3d"},
+]
+
+[package.dependencies]
+kt-legacy = "*"
+packaging = "*"
+requests = "*"
+
+[package.extras]
+bayesian = ["scikit-learn", "scipy"]
+build = ["build", "namex"]
+tensorflow = ["tensorflow (>=2.0)"]
+tensorflow-cpu = ["tensorflow-cpu (>=2.0)"]
+tests = ["black", "flake8", "ipython", "isort", "namex", "pandas", "portpicker", "pytest", "pytest-cov", "pytest-xdist", "scikit-learn", "scipy"]
+
+[[package]]
 name = "kiwisolver"
 version = "1.4.5"
 description = "A fast implementation of the Cassowary constraint solver"
@@ -1031,6 +1054,17 @@ files = [
     {file = "kiwisolver-1.4.5-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:210ef2c3a1f03272649aff1ef992df2e724748918c4bc2d5a90352849eb40bea"},
     {file = "kiwisolver-1.4.5-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:11d011a7574eb3b82bcc9c1a1d35c1d7075677fdd15de527d91b46bd35e935ee"},
     {file = "kiwisolver-1.4.5.tar.gz", hash = "sha256:e57e563a57fb22a142da34f38acc2fc1a5c864bc29ca1517a88abc963e60d6ec"},
+]
+
+[[package]]
+name = "kt-legacy"
+version = "1.0.5"
+description = "Legacy import names for Keras Tuner"
+optional = false
+python-versions = "*"
+files = [
+    {file = "kt-legacy-1.0.5.tar.gz", hash = "sha256:dbbade58f12c6a6da6062f4b045a6395a8d4195815e3e064bc3e609b69c8a26c"},
+    {file = "kt_legacy-1.0.5-py3-none-any.whl", hash = "sha256:8d5c5b3dccf348367fe9ca5b006e7ad2d1babcce62976cfc199e831ea699dcd3"},
 ]
 
 [[package]]
@@ -2455,4 +2489,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "e67525444c74ba643800ff4c4d23c511a8f3d5482fc11aaa88ffda15d5c9ff99"
+content-hash = "45e41edaf9e931a79a6572b863215eb050cc18a46db79f64d38432289e9cf634"

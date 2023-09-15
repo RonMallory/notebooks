@@ -1,3 +1,5 @@
+kaggle/*/models/*
+kaggle/*/logs/*
 kaggle/*/*.csv
 kaggle/*/data/*
 
